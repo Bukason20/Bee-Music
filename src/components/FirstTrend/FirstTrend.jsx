@@ -29,7 +29,7 @@ function FirstTrend({token}) {
     
     return (
         <div className = "first-trend">
-            <div className="hot">
+            {/* <div className="hot">
                 <p>What's hot</p>
                 <img src= {Fire} alt=""/>
             </div> 
@@ -52,7 +52,7 @@ function FirstTrend({token}) {
                 <button className = "first-trend-follow">FOLLOW</button>
             </div>
             </div> 
-            
+             */}
             
         </div>
     )

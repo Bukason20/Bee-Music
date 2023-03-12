@@ -2,7 +2,7 @@ import axios from "axios"
 
 const authEndpoint = "https://accounts.spotify.com/authorize"
 const clientID = "d121e5c66e3a438a961f65350974825d"
-const redirectUri = "http://127.0.0.1:5173/"
+const redirectUri = "https://bee-music-delta.vercel.app/"
 const scopes = ["user-library-read", "playlist-read-private"]
 
 export const loginEndpoint = `${authEndpoint}?client_id=${clientID}&redirect_uri=${redirectUri}&scope=${scopes.join(
