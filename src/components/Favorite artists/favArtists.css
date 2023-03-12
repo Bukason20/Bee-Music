@@ -1,0 +1,32 @@
+.fav-artist{
+    margin: 2rem 0;
+}
+.fav-artist .artist-profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 10px;
+}
+.fav-artist-title{
+    margin-bottom: 1rem;
+}
+.artist-identity{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0.5rem 0;
+}
+.artist-identity img{
+    height: 2rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;  
+}
+.fav-artist-name{
+    font-weight: bold;
+}
+.fav-artist-followers{
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+    color: rgb(189, 189, 197);
+}

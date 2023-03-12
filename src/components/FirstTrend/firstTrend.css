@@ -1,0 +1,75 @@
+.first-trend{
+    margin: 0 1rem 1rem;
+    /* background-color: orange; */
+    /* padding-right: 2rem; */
+}
+.hot{
+    display: flex;
+    
+}
+.hot p{
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+.hot img{
+    height: 1rem;
+}
+.first-trend .trending{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.more{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.first-trend .track-details{
+    background: linear-gradient(rgba(255,255,255,0.6), rgba(0,0,0,0.7)), url("https://i.scdn.co/image/ab67616d0000b2739b19227afdca8645817830aa");
+    height: fit-content;
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin-top: 1rem;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.first-trend .track-details .artist{
+    font-size: 1rem;
+    color: rgb(78, 78, 78);
+}
+.first-trend .track-details .trend-song{
+    font-size: 5rem;
+    margin: 0.5rem 0;
+}
+.first-trend .btns{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.first-trend .btns button{
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    outline: none;
+    cursor: pointer;
+    transition: all 400ms ease;
+    border: 1px solid black;
+    font-size: 1.1rem;
+}
+.first-trend-play{
+    background-color: black;
+    color: white;
+    /* border: 1px solid black; */
+}
+.first-trend-play:hover{
+    background-color: transparent;
+    color: black;
+    border-color: black;
+}
+.first-trend-follow{
+    background-color: transparent;
+}
+.first-trend-follow:hover{
+    background-color: black;
+    color: white;
+}

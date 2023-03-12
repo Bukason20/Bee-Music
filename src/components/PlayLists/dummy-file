@@ -1,0 +1,26 @@
+// if(localStorage.getItem("playlists") === null || localStorage.getItem("playlists") === "" ){
+        //     const options = {
+        //         method: 'GET',
+        //         headers: {
+        //             'X-RapidAPI-Key': 'eeb077b920mshc7af80c2167bf0bp1ab13cjsn41c3cd2d817f',
+        //             'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+        //         }
+        //     };
+            
+        //     fetch('https://spotify23.p.rapidapi.com/playlist_tracks/?id=37i9dQZF1DX4Wsb4d7NKfP&offset=0&limit=100', options)
+        //         .then(response => response.json())
+        //         .then(res => {
+        //             res.items.map((song, index) => {
+        //                 if(song.track !== null){
+        //                     setData(localStorage.setItem("playlists", JSON.stringify(res.items)))
+        //                 } 
+        //             })
+                    
+        //         })
+        //         .catch(err => console.log(err));
+        //     console.log(true)
+        // }
+        // setPlayLists(
+        //     localStorage.getItem("playlists") === null || localStorage.getItem("playlists") === "" ? [] 
+        //     :  JSON.parse(localStorage.getItem("playlists"))
+        // )

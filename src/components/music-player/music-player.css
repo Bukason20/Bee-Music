@@ -1,0 +1,38 @@
+.music-player{
+    position: fixed;
+    top: 90vh;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px 30px;
+    border-radius: 6px;
+    
+    width: fit-content;
+    /* transform: translateY(-20px); */
+}
+.player-utils{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+}
+.first-utils{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-right: 5rem ;
+    
+}
+.first-utils button{
+    font-size: 15px;
+}
+.second-utils{
+    display: flex;
+}
+.play{
+    display: none;
+}
+.pause{
+    display: none;
+}

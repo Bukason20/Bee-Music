@@ -1,0 +1,20 @@
+*{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+body{
+  background-color: rgb(245, 245, 255);
+}
+.app-contents{
+  display: flex;
+  margin-left: 230px;
+
+}
+
+/* --------------------------MEDIA QUERY FOR SMALL DEVICES------------------------------------------- */
+@media screen and (max-width : 600px){
+  .app-contents{
+    margin-left: 120px;
+  }
+}

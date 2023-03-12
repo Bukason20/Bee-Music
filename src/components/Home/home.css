@@ -1,0 +1,81 @@
+.home{
+    /* background-color: white; */
+    width: 62%;
+    padding: 10px;
+    position: relative;
+    min-height: 100vh;
+
+}
+.home-header{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 3rem;
+    width: 100%;
+    margin: 0 0 2rem 0;
+    /* background-color: palegreen; */
+}
+.playlist-section .title{
+    margin: 0 1rem;
+}
+.playlist-section-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.show-all{
+    font-size: 0.9rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.arrows{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.playlist-items-head{
+    display: flex;
+    align-items: center;
+    margin: 0 0.5rem;
+    padding: 10px;
+}
+.playlist-items-head P{
+    width: 100%;
+    color: rgb(195,195,203);
+    font-size: 0.8rem;
+}
+.song{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin:  1rem 0.5rem;
+    /* background-color: orange; */
+    border-radius: 5px;
+}
+.song.active{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.song:hover{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.song p{
+    width: 100%;
+    font-size: 0.8rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin: 0 1rem; */
+}
+#song-no{
+    width: 30%;
+}
+#song-time{
+    width: 30%;
+}
+
+/* --------------------------MEDIA QUERY FOR SMALL DEVICES------------------------------------------- */
+@media screen and (max-width : 600px){
+    .home{
+        width: 90%;
+    }
+  }
